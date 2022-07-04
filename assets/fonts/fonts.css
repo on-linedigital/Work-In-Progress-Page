@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'SequelSans-Bold';
+  src: url('../fonts/sequelsans/bold/SequelSans-BoldDisp.svg#SequelSans-BoldDisp') format('svg'),
+       url('../fonts/sequelsans/bold/SequelSans-BoldDisp.ttf') format('truetype'),
+       url('../fonts/sequelsans/bold/SequelSans-BoldDisp.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
