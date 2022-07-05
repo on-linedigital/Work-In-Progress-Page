@@ -13,6 +13,53 @@ body {
 	-ms-user-select: none;
 	-o-user-select: none;
 	user-select: none;
+    cursor: help;
+    animation-name: FadeIn;
+    animation-duration: 1s;
+}
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .content {
 	position: absolute;
@@ -24,4 +71,18 @@ body {
 .logo {
 	font-size: 60px;
 	margin-bottom: 0;
+}
+.link {
+text-decoration: none;
+cursor: help;
+color: inherit;
+-moz-transition: all .2s ease-in;
+-o-transition: all .2s ease-in;
+-webkit-transition: all .2s ease-in;
+transition: all .2s ease-in;
+}
+.link:hover {
+text-decoration: none;
+cursor: help;
+color: #FF1616;
 }
